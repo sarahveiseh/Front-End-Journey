@@ -1,0 +1,114 @@
+html {
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: rgb(233, 232, 232);
+}
+
+main {
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  color: rgb(89, 30, 144);
+  padding: 0;
+}
+
+label {
+  color: rgb(89, 30, 144);
+}
+
+ul {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(89, 30, 144);
+}
+
+ul > li {
+  margin-top: 10px;
+}
+
+input,
+select,
+button {
+  appearance: none;
+  padding: 15px;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgb(245, 245, 240);
+  width: 85%;
+  box-sizing: border-box;
+  color: rgb(112, 112, 112);
+}
+
+button {
+  background-color: rgb(89, 30, 144);
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+  color: rgb(58, 58, 58);
+  background-color: rgb(209, 166, 209);
+}
+
+input:focus,
+select:focus,
+button:focus {
+  outline: none;
+  border-radius: 1rem;
+  border-bottom: 2px solid rgb(209, 166, 209);
+}
+
+.container {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  border-radius: 2rem;
+  background-color: white;
+  margin-top: 50px;
+}
+
+.form-section {
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.copy-right {
+  color: rgb(138, 137, 137);
+}
+
+.photo-section {
+  background-color: rgb(223, 202, 223);
+  overflow: hidden;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.photo-container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.photo {
+  max-width: 100%;
+}

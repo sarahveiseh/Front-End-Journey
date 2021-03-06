@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My Page</title>
+    <link href="styles/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="container">
+      <section class="form-section">
+        <form class="form">
+          <h1>Welcome</h1>
+          <ul>
+            <li>
+              <label for="email">Email: </label>
+              <br />
+              <input
+                type="email"
+                name="user-email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+            </li>
+            <li>
+              <label for="password">Password: </label>
+              <br />
+              <input
+                type="password"
+                name="user-password"
+                id="password"
+                placeholder="Create Password"
+                required
+              />
+            </li>
+            <li>
+              <label for="gender">Gender</label>
+              <br />
+              <select id="gender" name="user-gender" required>
+                <option value="">Choose a Gender</option>
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+                <option value="3">None Binary</option>
+              </select>
+            </li>
+            <li>
+              <label label for="birthday">Birthday</label>
+              <br />
+              <input
+                type="date"
+                id="birthday"
+                name="user-birthday"
+                placeholder="Birthday"
+              />
+            </li>
+            <li>
+              <label for="zip-code"> Zip: </label>
+              <br />
+              <input
+                type="number"
+                name="user-zip"
+                id="zip-code"
+                placeholder="Zip"
+              />
+            </li>
+            <li>
+              <p>
+                By signing up, you confirm agreeing with our
+                <a href="#">Privacy Policy</a> and <a href="#">Terms of Use</a>
+              </p>
+            </li>
+            <li>
+              <button>submit</button>
+            </li>
+          </ul>
+          <p class="copy-right">Copy right @NAME 2021</p>
+        </form>
+      </section>
+      <section class="photo-section">
+        <div class="photo-container">
+          <img src="images/image.svg" alt="login photo" class="photo" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
